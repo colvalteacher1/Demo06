@@ -1,0 +1,1 @@
+﻿dotnet ef dbcontext scaffold "Name=ConnectionStrings:OnlineMySqlDB" MySql.EntityFrameworkCore -o Models -t Person -p Demo06 -f
