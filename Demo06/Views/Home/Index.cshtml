@@ -1,0 +1,12 @@
+﻿@model List<Person>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.Id | @item.Nom | @item.DateNaissance?.ToString("yyyy-MM-dd")</li>
+    }
+</ul>
